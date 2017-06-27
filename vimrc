@@ -1,10 +1,33 @@
-" Basic settings for VIM
-
 " To set default changes to appear to avoid changes in other options
 set nocompatible
 
 " show line numbers
 set number
+
+" don't wrap lines (it looks wierd and confusing!)
+set nowrap
+
+" set a 'tab' hit to 4 spaces
+set tabstop=4
+
+" allow backspacking over everything in insert mode
+set backspace=indent,eol,start
+
+" set auto-indentation on for always
+set autoindent
+
+" copy previous intendation on auto-intendation
+set copyindent
+
+" set number of spaces to use 4, for auto-intending
+set shiftwidth=4
+
+" use multiple of shiftwidth when indenting with '<' and '>'
+set shiftround
+
+" insert tabs on the start of a line according
+" to shiftwidth, not tabstop
+set smarttab
 
 " show matching parenthesis
 set showmatch
