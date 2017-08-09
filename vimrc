@@ -9,6 +9,7 @@ set nowrap
 
 " set a 'tab' hit to 4 spaces
 set tabstop=4
+set expandtab
 
 " allow backspacking over everything in insert mode
 set backspace=indent,eol,start
